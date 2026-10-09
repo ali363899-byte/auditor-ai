@@ -19,7 +19,7 @@ Try the application live: **[auditor-ai-app.streamlit.app](https://auditor-ai-ap
 ## Local Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ali363899-byte/auditor-ai.git](https://github.com/ali363899-byte/auditor-ai.git)
+   git clone https://github.com/ali363899-byte/auditor-ai.git
    cd auditor-ai
    ```
 2. Install dependencies:
