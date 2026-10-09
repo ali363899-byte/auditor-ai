@@ -1,0 +1,20 @@
+# AuditorAI 🛡️ — Automated Code Review & Security Scanner
+
+An enterprise-focused developer productivity tool that analyzes source code for vulnerabilities, architectural bottlenecks, and code smell, rendering real-time radar quality metrics and production-ready refactored solutions.
+
+## Architecture & Engineering Highlights
+- **Heuristic Quality Scoring:** Parses incoming source across Security, Performance, and Readability vectors.
+- **Strict JSON Contract:** Uses constrained structured schema output from LLM agents to ensure reproducible, machine-readable audit reports.
+- **Data Visualization:** Renders interactive polar radar charts with Plotly for instant visual triage.
+- **Multi-Language Support:** Analyzes Python, Java, JavaScript, TypeScript, C++, SQL, and Luau.
+
+## Tech Stack
+- **Frontend / Engine:** Python, Streamlit
+- **Visualization:** Plotly
+- **AI Core:** Google GenAI SDK (`gemini-2.5-flash`)
+
+## Local Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/auditor-ai.git](https://github.com/YOUR_USERNAME/auditor-ai.git)
+   cd auditor-ai
